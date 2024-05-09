@@ -5,4 +5,4 @@ let b = 0
 while(a<=100){
     b+=a++
 }
-console.log(b);
+console.log("a soma dos numeros de 1 a 100 é: " + b);
