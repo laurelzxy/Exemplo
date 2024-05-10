@@ -3,18 +3,18 @@
 // notas entre 5.0 e 7,0 ou a mensagem de REPROVADO para média inferior a 5,0.
 
 alert("Informe ás notas de 0 á 10")
-let n1 = prompt('Digite a primeira nota do aluno')
-let n2 = prompt('Digite a segunda nota do aluno')
-let n3 = prompt('Digite a terceira nota do aluno')
-let n4 = prompt('Digite a quarta nota do aluno')
+    let n1 = parseInt(prompt('Digite a primeira nota do aluno'))
+    let n2 = parseInt(prompt('Digite a segunda nota do aluno'))
+    let n3 = parseInt(prompt('Digite a terceira nota do aluno'))
+    let n4 = parseInt(prompt('Digite a quarta nota do aluno'))
 
 let media =(n1+n2+n3+n4) / 4;
 
-if(media >= 7.0) {
+if(media >= 7) {
     console.log("APROVADO")
 }
 
-else if(media < 7 && media  >= 5.0) {
+else if(media < 7 && media  >= 5.) {
     console.log("RECUPERAÇÃO")
 }
  else {
